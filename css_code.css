@@ -1,0 +1,16 @@
+/* Paragraph border style */
+p {border-width: 2px 4px;border-style: solid;border-color: darkgreen; padding: 1px;}
+
+/* Paragraph font */
+p {font-size: 125%;line-height: 100%; font-style: normal; font-family: monospace; font-weight: bold;font-variant: small-caps;}
+
+ /* First paragraph in the html file is in a container class. The code below will manipulate that container */
+ .container {border: 1px solid darkgreen; background-color: rgb(7, 19, 7);}
+
+.containee{color:darkgreen}
+
+/* This next line uses the id selector in the last paragraph element in the hmtl file */
+#last-p{color:darkgreen}
+
+/* When text in a paragraph is highlighted it will change color */
+p::selection {background-color: rgb(206, 117, 9); color:black}
