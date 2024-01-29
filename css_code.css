@@ -1,3 +1,6 @@
+/* Style settings for the body of the html file */
+body {background-color: black; background-image: url(cypberpunk_bg_4homepage.jpg);}
+
 /* Paragraph border style */
 p {border-width: 2px 4px;border-style: solid;border-color: darkgreen; padding: 1px;}
 
@@ -17,3 +20,4 @@ p::selection {background-color: rgb(206, 117, 9); color:black}
 
 /* Style settings for heading 1 */
 h1 {color: darkgreen}
+
