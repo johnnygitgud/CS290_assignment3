@@ -14,3 +14,6 @@ p {font-size: 125%;line-height: 100%; font-style: normal; font-family: monospace
 
 /* When text in a paragraph is highlighted it will change color */
 p::selection {background-color: rgb(206, 117, 9); color:black}
+
+/* Style settings for heading 1 */
+h1 {color: darkgreen}
