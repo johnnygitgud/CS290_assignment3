@@ -1,16 +1,16 @@
 /* Style settings for the body of the html file */
-body {background-color: black; background-image: url(cypberpunk_bg_4homepage.jpg);}
+body {background-color: black; background-image: url(cypberpunk_bg_4homepage.jpg);text-align: center;}
 
 /* Paragraph border style */
-p {border-width: 2px 4px;border-style: solid;border-color: darkgreen; padding: 1px;}
+p { border-width: 2px 4px;border-style: solid;border-color: darkgreen; padding: 1px; overflow: auto; box-sizing: border-box}
 
 /* Paragraph font */
-p {font-size: 125%;line-height: 100%; font-style: normal; font-family: monospace; font-weight: bold;font-variant: small-caps;}
+p {font-size: 175%;line-height: 100%; font-style: normal; font-family: monospace; font-weight: bold;font-variant: small-caps;}
 
- /* First paragraph in the html file is in a container class. The code below will manipulate that container */
- .container {border: 1px solid darkgreen; background-color: rgb(7, 19, 7);}
+ /* First paragraph in the html file is the containee of the container class. The code below will manipulate that container */
+ .container {border: 1px solid darkgreen; background-color: rgb(7, 19, 7); font-size: 24;}
 
-.containee{color:darkgreen}
+.containee{color:darkgreen;}
 
 /* This next line uses the id selector in the last paragraph element in the hmtl file */
 #last-p{color:darkgreen}
@@ -19,5 +19,5 @@ p {font-size: 125%;line-height: 100%; font-style: normal; font-family: monospace
 p::selection {background-color: rgb(206, 117, 9); color:black}
 
 /* Style settings for heading 1 */
-h1 {color: darkgreen}
+h1 {color: darkgreen; position:relative;}
 
