@@ -1,5 +1,5 @@
 /* Style settings for the body of the html file */
-body {background-color: black; background-image: url(cypberpunk_bg_4homepage.jpg);text-align: center;}
+body {background-color: black; background-image: url(cypberpunk_bg_4homepage.jpg); background-attachment: fixed; background-position: center; text-align: center; background-repeat: no-repeat;}
 
 /* Paragraph border style */
 p { border-width: 2px 4px;border-style: solid;border-color: darkgreen; padding: 1px; overflow: auto; box-sizing: border-box}
@@ -8,7 +8,7 @@ p { border-width: 2px 4px;border-style: solid;border-color: darkgreen; padding: 
 p {font-size: 175%;line-height: 100%; font-style: normal; font-family: monospace; font-weight: bold;font-variant: small-caps;}
 
  /* First paragraph in the html file is the containee of the container class. The code below will manipulate that container */
- .container {border: 1px solid darkgreen; background-color: rgb(7, 19, 7); font-size: 24;}
+ .container {border: 1px solid darkgreen; background-color: rgb(7, 19, 7); font-size: 24; overflow: hidden; display: block;}
 
 .containee{color:darkgreen;}
 
@@ -21,3 +21,4 @@ p::selection {background-color: rgb(206, 117, 9); color:black}
 /* Style settings for heading 1 */
 h1 {color: darkgreen; position:relative;}
 
+nav {display: flex; justify-content: space-around; background: rgb(7, 19, 7); padding: 5px;}
